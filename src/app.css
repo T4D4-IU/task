@@ -37,4 +37,41 @@
         dark:bg-blue-900
         dark:hover:bg-blue-700;
     }
+    .btn {
+        @apply
+        p-1
+        text-left
+        font-mono
+        border-x-2
+        border-y-2
+        border-violet-700
+        text-violet-700
+        bg-emerald-300
+        hover:border-black
+        hover:text-black
+        hover:bg-emerald-400
+        dark:border-violet-300
+        dark:text-violet-300
+        dark:bg-emerald-400
+        dark:hover:border-white
+        dark:hover:text-white
+        dark:hover:bg-emerald-300;
+    }
+    .in-btn {
+        @apply
+        border-x-2
+        border-y-2
+        border-violet-700
+        text-violet-700
+        bg-emerald-300
+        hover:border-black
+        hover:text-black
+        hover:bg-emerald-400
+        dark:border-violet-300
+        dark:text-violet-300
+        dark:bg-emerald-400
+        dark:hover:border-white
+        dark:hover:text-white
+        dark:hover:bg-emerald-300;
+    }
 }
