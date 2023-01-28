@@ -2,6 +2,7 @@
     import type { PageData } from "./$types";
     export let data: PageData;
     import Nav from "$lib/navigate.svelte";
+    import Footer from "$lib/footer.svelte"
   </script>
 
   <svelte:head>
@@ -18,6 +19,7 @@
       </li>
     {/each}
     </ul>
+    <Footer />
   </section>
 
   <style>

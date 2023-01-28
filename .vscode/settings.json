@@ -3,6 +3,10 @@
         "accessible",
         "Accordion",
         "Confetti",
-        "Nyez"
+        "dark",
+        "Nyez",
+        "rounded",
+        "tailwindcss",
+        "theme"
     ]
 }

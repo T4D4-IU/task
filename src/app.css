@@ -23,4 +23,16 @@
         dark:hover:text-white
         dark:hover:bg-emerald-300;
     }
+    .footer {
+        @apply
+        bg-blue-300
+        p-4
+        bottom-0
+        w-full
+        fixed
+        flex
+        justify-between
+        items-center
+        dark:bg-blue-900
+    }
 }
