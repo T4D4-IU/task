@@ -2,7 +2,6 @@
     import type { PageData } from "./$types";
     export let data: PageData;
     import Nav from "$lib/navigate.svelte";
-    import { Confetti } from "svelte-confetti";
   </script>
 
   <svelte:head>
