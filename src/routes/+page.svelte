@@ -2,13 +2,14 @@
     import type { PageData } from "./$types";
     export let data: PageData;
     import Nav from "$lib/navigate.svelte";
+    import { Confetti } from "svelte-confetti";
   </script>
-  
+
   <svelte:head>
     <title>Home</title>
     <meta name="description" content="Svelte demo app" />
   </svelte:head>
-  
+
   <section>
     <Nav />
     <ul>
@@ -19,7 +20,7 @@
     {/each}
     </ul>
   </section>
-  
+
   <style>
   section {
     display: flex;
