@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { PageData } from "./$types";
     export let data: PageData;
+    import Nav from "$lib/navigate.svelte";
   </script>
   
   <svelte:head>
@@ -9,7 +10,7 @@
   </svelte:head>
   
   <section>
-    <h1>SevelteKitブログ</h1>
+    <Nav />
     <ul>
     {#each data.items as item}
       <li>
