@@ -1,6 +1,7 @@
 <script>
     
-  </script>
+</script>
+
 <header>
     <nav>
         <div>
