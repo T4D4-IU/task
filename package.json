@@ -36,6 +36,7 @@
 	"type": "module",
 	"dependencies": {
 		"newt-client-js": "^3.2.4",
-		"svelte-confetti": "^1.2.2"
+		"svelte-confetti": "^1.2.2",
+		"svelte-marquee": "^0.1.4"
 	}
 }
