@@ -23,6 +23,9 @@
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
     </script>
 
+	<button>
+		<a href="#top">top</a>
+	</button>
     {#if darkModeReady}
     <div class="h-8 toggle" in:fade={{ duration: 800 }}>
         <input

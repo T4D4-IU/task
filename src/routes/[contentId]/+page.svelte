@@ -7,17 +7,20 @@
   </script>
 
   <svelte:head>
-    <title>data.title</title>
+    <title>{data.title}</title>
     <meta name="description" content="Svelte demo app" />
   </svelte:head>
 
-  <section>
+  <section id="top">
     <Nav />
-    <div class="top" id="top">
+    <div class="top">
       <Menu />
     </div>
-    <h1>data.title</h1>
+    <h1>{data.title}</h1>
     {@html data.body}
+    <div class="h-16">
+      <!--画面下部でタイトル一覧がフッターと被るので解消方法がよくわからなかったので被る部分と同じ高さの空白を用意して解消-->
+    </div>
     <Footer />
   </section>
 
